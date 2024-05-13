@@ -6,7 +6,7 @@
 
 ## Features
 
-### Patiens(Clients)
+### Patients(Clients)
   
   - SignUp to create New Account
   - Delete account
