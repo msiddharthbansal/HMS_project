@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animations.css">  
+    <link rel="stylesheet" href="css/main.css">  
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/healthlogo.png" type="image/x-icon">
+    
+    <title>Health Sphere Hospital</title>
+    <style>
+        table{
+            animation: transitionIn-Y-bottom 0.5s;
+            .chatbot-container {
+            height: 300px; /* Adjust this value to your desired height */
+        }
+        }
+    </style>
+        
+</head>
+
+<body>
+    
+    <div class="full-height">
+        <center>
+        <table border="0">
+            <tr>
+                <td width="50%">
+                    <font class="edoc-logo">HS </font>
+                    <font class="edoc-logo-sub">| HEALTH SPHERE HOSPITAL</font>
+                </td>
+                <td width="10%">
+                    <a href="aboutus.php"  class="non-style-link"><p class="nav-item">ABOUT US</p></a>
+                </td>
+                <td width="10%">
+                    <a href="doctors.php"  class="non-style-link"><p class="nav-item">DOCTORS</p></a>
+                 </td>
+                <td width="10%">
+                    <a href="contact.php"  class="non-style-link"><p class="nav-item">CONTACT US</p></a>
+                </td>
+                <td width="10%">
+                   <a href="login.php"  class="non-style-link"><p class="nav-item">LOGIN</p></a>
+                </td>
+                <td  width="10%">
+                    <a href="signup.php" class="non-style-link"><p class="nav-item" style="padding-right: 10px;">REGISTER</p></a>
+                </td>
+            </tr>
+            
+            <tr>
+                <td  colspan="5">
+                    <p class="heading-text">Your Health, Our Priority.</p>
+
+                </td>
+            </tr>
+            <tr>
+                <td  colspan="5">
+                    <p class="sub-text2" style="padding-left: 2%;">Welcome to Health Sphere, where we believe that every individual deserves access to quality healthcare.<br>At Health Sphere, we're dedicated to empowering you to take control of your health and wellness journey.<br>
+                    Embark on a journey to better health with Health Sphere, your trusted partner in care.</p>
+                </td>
+            </tr>
+            
+            <tr>
+                
+                <td colspan="2">
+                    
+                    <a href="login.php" style="padding-left: 3%;" >
+                        <input type="button" value="Make Appointment" class="login-btn btn-primary btn" >
+                    </a>
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                <td colspan="3">
+                   
+                </td>
+            </tr>
+            <div class="chatbot-container">
+                <!-- Place your chatbot script here -->
+                <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+                <script>
+                  window.botpressWebChat.init({
+                      "composerPlaceholder": "Chat with bot",
+                      "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+                      "botId": "f891bd93-81ec-462e-9c35-4b614d6b2a12",
+                      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+                      "messagingUrl": "https://messaging.botpress.cloud",
+                      "clientId": "f891bd93-81ec-462e-9c35-4b614d6b2a12",
+                      "webhookId": "3886936b-c81b-46cd-a997-4393ec4d5d6e",
+                      "lazySocket": true,
+                      "themeName": "prism",
+                      "frontendVersion": "v1",
+                      "showPoweredBy": true,
+                      "theme": "prism",
+                      "themeColor": "#2563eb"
+                  });
+                  window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
+
+                </script>
+            </div>
+        </table>
+        <p class="sub-text2 footer-hashen">A Website by IITRAM Students.</p>
+    </center>
+    
+    </div>
+</body>
+</html>
