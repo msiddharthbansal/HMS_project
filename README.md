@@ -65,11 +65,13 @@
 | ![](https://github.com/anjSingh453/DBMS/blob/main/Screenshots/scr1.png) | ![](https://github.com/anjSingh453/DBMS/blob/main/Screenshots/appointment.png)| ![](https://github.com/anjSingh453/DBMS/blob/main/Screenshots/chatbot.png)| ![](https://github.com/anjSingh453/DBMS/blob/main/Screenshots/patient_side.png)|![](https://github.com/anjSingh453/DBMS/blob/main/Screenshots/prescription.png)| 
 |  ![](https://github.com/anjSingh453/DBMS/blob/main/Screenshots/scr2.png)| ![]()|
 # This project was developed as a part of our DBMS project in 4th semester by out IITRAM students
+
 # Developed by-
 -Prasanna H
 -Anjali Singh
 -Siddharth Bansal
 -Aman Pal
+
 # The Project was developed using the following softwares with the following version:
 
 PHP Version: 		`8.3.6`
